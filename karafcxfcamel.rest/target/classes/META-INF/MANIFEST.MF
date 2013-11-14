@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1384448325401
+Build-Jdk: 1.7.0_45
+Built-By: Gabriel
+Bundle-ManifestVersion: 2
+Bundle-Name: karafcxfcamel.rest
+Bundle-SymbolicName: karafcxfcamel.rest
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: me.rerun.karafcxfcamel.rest;uses:="javax.ws.rs,me.rerun.
+ karafcxfcamel.service.impl,me.rerun.karafcxfcamel.service.base,org.apac
+ he.camel,me.rerun.karafcxfcamel.model,org.slf4j";version="1.0.0.SNAPSHO
+ T"
+Import-Package: javax.ws.rs;version="[2.0,3)",javax.ws.rs.core;version="
+ [2.0,3)",me.rerun.karafcxfcamel.model;version="[1.0,2)",me.rerun.karafc
+ xfcamel.service.base;version="[1.0,2)",me.rerun.karafcxfcamel.service.i
+ mpl;version="[1.0,2)",org.apache.camel;version="[2.10,3)",org.apache.ca
+ mel.builder;version="[2.10,3)",org.apache.camel.model;version="[2.10,3)
+ ",org.apache.camel.model.dataformat;version="[2.10,3)",org.apache.camel
+ .processor.aggregate;version="[2.10,3)",org.apache.cxf.jaxrs.utils;vers
+ ion="[2.7,3)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.sl
+ f4j;version="[1.6,2)"
+Import-Service: me.rerun.karafcxfcamel.service.base.AgePhoneService;mult
+ iple:=false,me.rerun.karafcxfcamel.service.base.NameEmailService;multip
+ le:=false
+Tool: Bnd-1.50.0

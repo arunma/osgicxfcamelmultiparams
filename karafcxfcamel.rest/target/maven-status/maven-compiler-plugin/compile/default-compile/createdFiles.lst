@@ -1,0 +1,6 @@
+me/rerun/karafcxfcamel/rest/RestService.class
+me/rerun/karafcxfcamel/camel/beans/RestToBeanRouter$1.class
+me/rerun/karafcxfcamel/camel/beans/RestToBeanRouter$ParamProcessor.class
+me/rerun/karafcxfcamel/camel/beans/RestToBeanRouter.class
+me/rerun/karafcxfcamel/rest/RestServiceImpl.class
+me/rerun/karafcxfcamel/camel/beans/ResultAggregator.class
